@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.sonicle.webtop</groupId>
+    <artifactId>webtop-mattermost</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+    <name>webtop-mattermost</name>
+	
+	<parent>
+		<groupId>com.sonicle.webtop</groupId>
+		<artifactId>webtop-superpom-service</artifactId>
+		<version>1</version>
+	</parent>
+	
+	<properties>
+		<!-- OVERRIDE DEFAULT JAVA VERSION (remove when whole transition is completed) -->
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		
+		<!-- WEBTOP SERVICE CONFIGURATION -->
+		<webtop.service.package>com.sonicle.webtop.mattermost</webtop.service.package>
+		<webtop.service.jsPackage>Sonicle.webtop.mattermost</webtop.service.jsPackage>
+		<webtop.service.i18n.languages>en,it,es,de</webtop.service.i18n.languages>
+		<webtop.service.i18n.tx.push.languages>it</webtop.service.i18n.tx.push.languages>
+		<webtop.service.i18n.tx.pull.languages>es,de</webtop.service.i18n.tx.pull.languages>
+	</properties>
+</project>

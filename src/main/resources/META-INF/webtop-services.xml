@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services>
+	<service>
+		<package>com.sonicle.webtop.mattermost</package>
+		<jsPackage>Sonicle.webtop.mattermost</jsPackage>
+		<shortName>wtmm</shortName>
+		<version>@@webtop.service.version@@</version>
+		<buildDate>@@webtop.service.buildDate@@</buildDate>
+		
+		<company>Sonicle S.r.l.</company>
+		<companyEmail>sonicle@sonicle.com</companyEmail>
+		<companyWebSite>http://www.sonicle.com</companyWebSite>
+		<supportEmail>sonicle@sonicle.com</supportEmail>
+		
+		<serviceClassName>Service</serviceClassName>
+	</service>
+</services>
